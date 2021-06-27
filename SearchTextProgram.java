@@ -16,7 +16,7 @@ public class SearchTextProgram {
         System.out.println("Launching the browser");
         WebDriverManager.chromedriver().setup();
         driver=new ChromeDriver();
-        driver.get("https://www.google.com/");
+        driver.get("https://www.google.com/");//Open url
     }
 
     @Test
