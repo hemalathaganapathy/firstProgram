@@ -31,6 +31,6 @@ public class SearchTextProgram {
     @AfterMethod
     public void CloseBrowser(){
         System.out.println("Closing The Browser");
-        driver.close();
+        driver.close();//close
     }
 }
